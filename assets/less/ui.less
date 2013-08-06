@@ -192,20 +192,22 @@ ul {
 
 #pricePlans #plans .plan {
   background: #fff;
-  float: left;
+  float: none;
+  display: inline-block;
   width: 100%;
   text-align: center;
   border-radius: 5px;
   margin: 0 0 20px 0;
 
+
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px rbga(0,0,0,0.1);
 }
 
 .planContainer .title h2 {
   font-size: 2.125em;
   font-weight: 300;
-  color: #3e4f6a;
+  color: @color-5;
   margin: 0;
   padding: .6em 0;
 }
@@ -224,13 +226,12 @@ ul {
 
 
 .planContainer .price p {
-  background: #3e4f6a;
-
-  background: -webkit-linear-gradient(top, #475975, #364761);
-  background: -moz-linear-gradient(top, #475975, #364761);
-  background: -o-linear-gradient(top, #475975, #364761);
-  background: -ms-linear-gradient(top, #475975, #364761);
-  background: linear-gradient(top, #475975, #364761);
+  background: @color-5;
+  background: -webkit-linear-gradient(top, @color-1, @color-2);
+  background: -moz-linear-gradient(top, @color-1, @color-2);
+  background: -o-linear-gradient(top, @color-1, @color-2);
+  background: -ms-linear-gradient(top, @color-1, @color-2);
+  background: linear-gradient(top, @color-1, @color-2);
   color: #fff;
   font-size: 1.2em;
   font-weight: 700;
@@ -244,7 +245,6 @@ ul {
 }
 
 .planContainer .price p span {
-  color: #8394ae;
 }
 
 .planContainer .options {
@@ -362,7 +362,7 @@ ul {
 }
 
 .planContainer .button a:hover {
-  background: #3e4f6a;
+  background: @color-2;
   color: #fff;
 }
 
