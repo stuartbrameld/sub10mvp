@@ -10,7 +10,6 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
     
-
     <!-- The Styles, minified and including font awesome v321 -->
     <link href="assets/css/style.css" rel="stylesheet"> 
 
@@ -23,11 +22,7 @@
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>
-    if (typeof jQuery == 'undefined') {
-      document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
-    }
-    </script>
+    
 
     <!--Has to be in head, to lazy load images.
     Minimize in production. -->
@@ -46,9 +41,14 @@
 
     <!-- History just for index page -->
     <script src="assets/js/jquery.history.js"></script>
-    <script>
-        // History, and back button
 
+    <script>
+    if (typeof jQuery == 'undefined') {
+      document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+    </script>
+
+    <script>
     $(function() {
     jQuery.history.listen()
       $('#nav .nav .scroll').click(function() {
