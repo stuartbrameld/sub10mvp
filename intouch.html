@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>sub10 technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Twitter bootstrap theme">
+    <meta name="author" content="prettystrap">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    
+    <!-- The Styles, minified and including font awesome v321 -->
+    <link href="assets/css/style.css" rel="stylesheet"> 
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+    <!-- Le fav  -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+
+    <!--Has to be in head, to lazy load images.
+    Minimize in production. -->
+
+    <script src="assets/js/lazyload.js"></script>
+    <script src="assets/js/jRespond.js"></script>
+    <script src="assets/js/spin.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/responsive-nav.js"></script>
+
+    <!-- Main js fail. -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- History just for index page -->
+    <script src="assets/js/jquery.history.js"></script>
+
+    <script>
+    if (typeof jQuery == 'undefined') {
+      document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+    </script>
+
+    <script>
+    $(function() {
+    jQuery.history.listen()
+      $('#nav .nav .scroll').click(function() {
+      $.history.push('index.html' + $(this).attr('href')); 
+      });
+    });
+    </script>
+
+  <!--Google Analytics Code-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44977646-1', 'sub10.co');
+  ga('send', 'pageview');
+
+  </script>
+
+
+
+  </head>
+
+  <!-- activate scrollspy -->
+  <body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+       <!-- Nav button -->
+      <a id="toggle"  class="closed">
+        <i class="icon-reorder"></i>
+      </a>
+
+      <!-- Navigation -->
+      <header class="navbar navbar-fixed-top">
+        <div class="inner-page">
+          <h1 class="logo">sub10.co</h1>
+            <div id="nav">
+              <ul class="nav">
+                <li class="active"><a title="home" class="scroll brand-1" href="#home">Home</a></li>
+                <li><a title="Services" href="#services" class=" scroll brand-4">Services</a></li>
+                <li><a title="technology" href="#technology" class="scroll brand-3">Technology</a></li>
+                <li><a title="Pricing" href="#pricing" class="scroll fadeto brand-4"> Pricing</a></li>
+                <li><a title="About Us" href="#about" class="scroll brand-2">About</a></li>
+                <li><a title="FOQs" href="faq.html" class=" brand-4">FAQs</a></li>
+              </ul>
+            </div>
+        </div> 
+      </header>
+      
+
+
+      <!-- Home Page -->
+      <div id="home" class="page color-1">
+        <div class="inner-page">
+          <h2 class="page-headline large">We'll be in touch.</h2>
+          <h4 class="small text-center">Bringing TechCity and Silicon Valley Technology to sub £10M revenue businesses</h4>
+        </div>
+
+
+      <div class="row-fluid inner-page">
+          <div class="span6 pull-right">
+            <div class="btn-container figurette">
+              <img src="assets/img/techcity4.png" alt="Play video" />
+      <!--ensure URL formatting correct to ensure lightbox functions-->
+               <a class="lightbox iframe btn-play" target="_blank" href="http://www.youtube.com/watch?v=wxqWvcFApuo"><i class="icon-play"></i></a>
+            </div>
+          </div>
+          <div class="span6">
+            <div class="btn-container figurette">
+              <ul class="big-list">
+                <li><i class="icon-rocket"></i> Over 300 profiled IT services</li>
+                <li><i class="icon-gbp"></i> Simple, low-cost solutions</li>
+                <li><i class="icon-signal"></i> Dedicated to small businesses</li>
+              </ul>
+            <br />
+            <a href="#technology" class="scroll btn btn-centered"><i class="icon-plus"></i> Our Technology</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<!-- Client Quote -->
+        <div class="newsletter color-2">
+          <div class="inner-page row-fluid">
+            <div class="span12">
+              <h4>"Tech City has grown from a handful of companies around the Old Street roundabout to over 3,200 companies, employing almost 50,000 people, making it the leading tech eco-system in Europe."</h4>
+              <h4 align="right"><strong>Google Campus London, 2013</strong></h4>
+            </div>
+          </div>
+        </div>
+
+
+<!-- sub10 Services -->
+
+      <div id="services" class="page color-4">
+        <div class="inner-page">
+          <h2 class="page-headline">sub10 can help you to</h2>
+        </div>
+
+        <div class="inner-page row-fluid">
+          <ul class="features list-inline">
+            <li>
+              <h2><i class="icon-rocket"></i> Discover</h2>
+              <p>With over <strong>3200 companies</strong> in TechCity alone, you can easily miss out on the most <strong>innovative technology solutions</strong> for your business. We steer clear of cumbersome CRM solutions that often fail to deliver providing customers with niche, simple and effective services.</p>
+            </li>
+            <li>
+              <h2><i class="icon-gbp"></i> Save</h2>
+              <p>Big companies with big marketing budgets are likely to be the most prominent in your search for <strong>the right technology</strong>, but are likely to be a bad fit for your small business. A number of our cloud service offerings are incredibly simple and start <strong>from just £10/month.</strong></p>
+            </li>
+            <li>
+              <h2><i class="icon-signal"></i> Grow</h2>
+              <p>Does your business suffer from process inefficiencies? <strong>Missed customer renewals? Poor marketing conversion rate?</strong> In today's world no business should be relying on spreadsheets. We're a small business ourselves and we know what's important to help you grow.</p>
+            </li>
+            </ul>
+        </div>
+      </div>
+
+<!-- Partner / Technology Quote -->
+        <div class="newsletter color-2">
+          <div class="inner-page row-fluid">
+            <div class="span12">
+              <h4>"sub10 are revolutionary in their approach to helping small businesses take advantage of new technology. ZenCash is pleased to be a technology partner, providing innovative invoicing solutions to sub10 customers."</h4>
+              <h4 align="right"><strong>Neil Blake, Co-Founder</strong></h4>
+            </div>
+          </div>
+        </div>
+
+
+
+<!-- Technology / Partners Page -->
+      <div id="technology" class="page color-3">
+          <div class="inner-page">
+            <h2 class="page-headline">Technology Partners</h2>
+          </div>
+
+        <div class="inner-page row-fluid features">
+
+          <div class="span4">
+            <h3 class="icon-envelope"></h3>
+            <h3>e-Marketing</h3>
+            <p>Tracking business opportunities across email, web, social media & events.</p>
+          </div>
+
+          <div class="span4">
+            <h3 class="icon-calendar"></h3>
+            <h3>Accounting</h3>
+           <p>Online contracts and invoicing, time tracking and employee expenses.</p>
+          </div>
+
+          <div class="span4">
+            <h3 class="icon-credit-card"></h3>
+            <h3>Payments</h3> 
+            <p>In-store and online payment solutions for desktop, laptop, mobile and tablet.</p>
+          </div>
+
+          <div class="span4">
+            <h3 class="icon-user"></h3>
+            <h3>Collaboration</h3>
+            <p>Efficient chat, messaging, information sharing, tasks & reminders. </p>
+          </div>
+
+          <div class="span4">
+            <h3 class="icon-globe"></h3>
+            <h3>Sales</h3>
+            <p>Track, monitor and assign deal flow. Automate customer proposals.</p>
+          </div>
+
+          <div class="span4">
+            <h3 class="icon-magic"></h3>
+            <h3>.... and more</h3>
+            <p>Find Innovative technology from over <strong>500</strong> technology providers. <a href="faq.html">Learn More.</a></p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Newsletter 1 -->
+      <div class="newsletter color-1">
+        <div class="inner-page row-fluid">
+          <div class="span4">
+            <h4>Request to <strong>join our business community</strong></h4>
+          </div>
+
+        <form action="http://stuartbrameld.us5.list-manage.com/subscribe/post?u=587db2692d155088777fb8356&amp;id=3a31466621" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          
+
+
+        <div class="mc-field-group span6">
+          <label for="mce-EMAIL"></label>
+          <input type="email" value="" name="EMAIL" placeholder="your@email.com" class="required email subscribe" id="mce-EMAIL">
+        </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>  
+
+
+          <div class="clear span2"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button pull-right btn subscribe"></div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- sub10 Prices / Offerings -->
+
+      <div id ="pricing" class="page color-4">
+        <div class="inner-page">
+          <h2 class="page-headline">Pricing</h2>
+        </div>
+
+      <div class="inner-page"> 
+      <section id="pricePlans">
+        <ul id="plans">
+          <li class="plan">
+            <ul class="planContainer">
+              <li class="title"><h2>Discover</h2></li>
+              <li class="price"><p>£100/<span>month</span></p></li>
+              <li>
+                <ul class="options">
+                   <li>Annual <span>Consultancy Day</span></li>
+                   <li>Annual <span>Executive Update</span></li>
+                  <li>Monthly <span>Newsletter</span></li>
+                  <li>Business <span> Support</span></li>
+                </ul>
+              </li>
+              <li class="button"><a href="https://dashboard.gocardless.com/api/template_plans/0F9C5ZB13F/paylink" target="_blank">Purchase</a></li>
+            </ul>
+          </li>
+
+            <li class="plan">
+              <ul class="planContainer">
+                <li class="title"><h2>Save</h2></li>
+                <li class="price"><p>£250/<span>month</span></p></li>
+                <li>
+                  <ul class="options">
+                     <li>Bi-Annual <span>On-Site Consulting</span></li>
+                     <li>Bi-Annual <span>Executive Update</span></li>
+                    <li>Monthly <span>Newsletter</span></li>
+                    <li>Business <span> Support</span></li>
+                  </ul>
+                </li>
+                <li class="button"><a href="https://dashboard.gocardless.com/api/template_plans/0F9CCA9XSB/paylink" target="_blank">Purchase</a></li>
+              </ul>
+            </li>
+
+            <li class="plan">
+              <ul class="planContainer">
+                <li class="title"><h2>Grow</h2></li>
+                <li class="price"><p>£500/<span>month</span></p></li>
+                <li>
+                  <ul class="options">
+                    <li>Quarterly <span>On-Site Consulting</span></li>
+                    <li>Quarterly <span>Executive Update</span></li>
+                    <li>Monthly <span>Newsletter</span></li>
+                    <li>Business & Service <span> Support</span></li>
+                  </ul>
+                </li>
+                <li class="button"><a href="https://dashboard.gocardless.com/api/template_plans/0F9C54TXDH/paylink" target="_blank">Purchase</a></li>
+              </ul>
+            </li>
+          </ul> <!-- End ul#plans -->
+        </section>
+        <h4 class="small text-center"><strong>No minimum contract period,</strong> for more information see our <a href="faq.html">Frequently Asked Questions.</a></h4>
+        </div>
+        </div>
+
+
+
+
+
+
+      <!-- About Us / The Team -->
+
+        <div id="about" class="page color-2">
+          <h2 class="page-headline">About Us</h2>
+        <div class="row-fluid inner-page team contact">
+
+          <div class="span6">
+            <img class="pull-left" src="assets/img/stuart-final.png" alt="A cookie" />
+            <h4><strong>Stuart Brameld</strong></h4>
+            <h5><strong>Managing Director</strong></h5> 
+            <p>Stuart has over 10 years IT consulting experience with experience ranging from SMEs to FTSE 100 companies.</p>
+            <ul>
+              <li><i class="icon-phone"></i> +44(0)77 7565 3659</a></li>
+              <li><i class="icon-envelope-alt"></i> <a href="mailto:office@sub10.co">office@sub10.co</a></li>
+              <li><i class="icon-twitter"></i> <a href="http://www.twitter.com/stuartbrameld" target="_blank">Twitter</a></li>
+            </ul>
+          </div>
+
+          <div class="span6 team2">
+            <img class="pull-left" src="assets/img/michelle-final.png" alt="A cookie" />
+            <h4><strong>Michelle Kingsley</strong></h4>
+            <h5><strong>Operations Director</strong></h5>
+            <p>Previously a corporate lawyer, Michelle has co-founded a number of Internet startups, most recently <a href="http://www.an-inkling.com" target="_blank">An-Inkling<a/>.</p>
+            <ul>
+              <li><i class="icon-phone"></i> +44(0)77 7565 3659</a></li>
+              <li><i class="icon-envelope-alt"></i> <a href="mailto:office@sub10.co">office@sub10.co</a></li>
+              <li><i class="icon-twitter"></i> <a href="http://www.twitter.com/sub10team" target="_blank">Twitter</a></li>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- Newsletter -->
+      <div class="newsletter color-1">
+        <div class="inner-page row-fluid">
+          <div class="span4">
+            <h4>Request to <strong>join our business community</strong></h4>
+          </div>
+
+        <form action="http://stuartbrameld.us5.list-manage.com/subscribe/post?u=587db2692d155088777fb8356&amp;id=3a31466621" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          
+
+
+        <div class="mc-field-group span6">
+          <label for="mce-EMAIL"></label>
+          <input type="email" value="" name="EMAIL" placeholder="your@email.com" class="required email subscribe" id="mce-EMAIL">
+        </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>  
+
+
+          <div class="clear span2"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button pull-right btn subscribe"></div>
+
+        </div>
+
+<!--End mc_embed_signup-->
+
+
+          </form>
+
+        </div>
+      </div>
+
+
+
+      <!-- The footer, social media icons, and copyright -->        
+      <footer class="page color-5">
+        <div class="inner-page row-fluid">
+          <div class="span6 social">
+            <a href="#contact"><i class="icon-twitter"></i></a>
+            <a href="#contact"><i class="icon-github-sign"></i></a>    
+            <a href="#contact"><i class="icon-facebook-sign"></i></a>
+            <a href="#contact"><i class="icon-google-plus-sign"></i></a>
+          </div>
+          <div class="span6 text-right copyright">
+            &copy; 2013 | The SubX Group | All Rights Reserved |  <a href="#top"   title="Got to top" class="scroll">To Top <i class="icon-caret-up"></i></a>
+          </div>
+        </div>
+      </footer>
+
+
+
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('2855-536-10-4684');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2855-536-10-4684/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+
+
+<script type="text/javascript">
+  var GoSquared = {};
+  GoSquared.acct = "GSN-905445-E";
+  (function(w){
+    function gs(){
+      w._gstc_lt = +new Date;
+      var d = document, g = d.createElement("script");
+      g.type = "text/javascript";
+      g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+      var s = d.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(g, s);
+    }
+    w.addEventListener ?
+      w.addEventListener("load", gs, false) :
+      w.attachEvent("onload", gs);
+  })(window);
+</script>
+
+
+  </body>
+</html>
